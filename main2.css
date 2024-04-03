@@ -117,13 +117,13 @@ body {
     left: 13px;
     }
     .email:invalid{
-        color: red;
+        color: 1px solid red;
     }
     .create:invalid{
-        color: red;
+        color: 1px solid red;
     }
     .confirm:invalid{
-        color: red;
+        color: 1px solid red;
     }
     .text3{
         position: relative;

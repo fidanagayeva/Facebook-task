@@ -121,10 +121,10 @@ body {
     right: 4px;
     }
     .email:invalid{
-        border-color: red;
+        border: 1px solid red;
         }
         .password:invalid{
-            border-color: red;
+            border-color: 1px solid red;
         }
     .text3{
         position: relative;
