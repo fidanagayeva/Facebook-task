@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-    display: flex; 
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -17,7 +17,7 @@ body {
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 0 10px; 
+    margin: 0 10px;
 }
 
 .form-container h2 {
@@ -53,12 +53,12 @@ body {
 
 .form-container button:hover {
     background-color: #1877f2;
-    
+
 }
 
 .form-container .text {
     text-align: center;
-    
+
 }
 
 .form-container .text.login {
@@ -66,11 +66,12 @@ body {
     margin-top: 15px;
     position: relative;
     left: 10px;
-    
+
 }
+
 .container1 {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -78,55 +79,60 @@ body {
     flex: 1;
     height: 1px;
     width: 40px;
-    background-color: rgba(0, 0, 0, 0.267);
+    background-color: rgb(0, 0, 0);
 }
 
 .or {
     padding: 0 10px;
 }
+
 .container2 {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
-    
+
 }
 
 .line {
     flex: 1;
     height: 1px;
     width: 40px;
-    background-color: rgba(0, 0, 0, 0.267);
+    background-color: rgba(0, 0, 0, 0.952);
 }
 
 .or {
     padding: 0 10px;
 }
-.fa-brands.fa-facebook{
+
+.fa-brands.fa-facebook {
     color: white;
     position: relative;
     right: 11px;
 }
 
-.fb{
+.fb {
     width: 200px;
     position: relative;
     right: 20px;
 }
-.google img{
+
+.google img {
     position: relative;
     right: 5px;
 }
-    .google{
-        position: relative;
+
+.google {
+    position: relative;
     right: 4px;
-    }
-    .email:invalid{
-        border: 1px solid red;
-        }
-        .password:invalid{
-            border-color: 1px solid red;
-        }
-    .text3{
-        position: relative;
+}
+
+.text3 {
+    position: relative;
     left: 10px;
-    }
+
+}
+
+input:invalid {
+    border: 1px solid red;
+
+}

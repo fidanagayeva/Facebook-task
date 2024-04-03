@@ -116,16 +116,10 @@ body {
         position: relative;
     left: 13px;
     }
-    .email:invalid{
-        color: 1px solid red;
-    }
-    .create:invalid{
-        color: 1px solid red;
-    }
-    .confirm:invalid{
-        color: 1px solid red;
-    }
     .text3{
         position: relative;
     left: 8px;
+    }
+    input:invalid{ 
+        border-color: red;
     }
